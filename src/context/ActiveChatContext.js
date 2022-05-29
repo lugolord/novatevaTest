@@ -37,15 +37,7 @@ export default function ActiveChatProvider({children}) {
       transports: ['websocket']
     });
   
-    socket.on('connect', () => {
-  
-      console.log(socket.connected);
-  
-    });
-  
     socket.on('new message', async (msg) => {
-
-      console.log(msg);
 
       let prueba = await msg.message;
 
