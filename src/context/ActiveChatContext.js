@@ -55,8 +55,6 @@ export default function ActiveChatProvider({children}) {
 
     let userWanted = usersInfo.find(u => u._id === id);
 
-    console.log(userWanted);
-
   }
   
   return (
