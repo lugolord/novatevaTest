@@ -26,7 +26,7 @@ export default function Chats({ setChatToShow }) {
 
   async function getUsers() {
 
-    let response = await fetch('http://novateva-codetest.herokuapp.com/users');
+    let response = await fetch('https://novateva-codetest.herokuapp.com/users');
 
     let data = await response.json();
 
@@ -44,7 +44,7 @@ export default function Chats({ setChatToShow }) {
 
   async function getMessages(roomId) {
 
-    let response = await fetch(`http://novateva-codetest.herokuapp.com/room/${roomId}?limit=5&page=0`, {
+    let response = await fetch(`https://novateva-codetest.herokuapp.com/room/${roomId}?limit=5&page=0`, {
 
       headers: {
         'authorization': `Bearer ${token}`
