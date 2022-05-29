@@ -1,0 +1,155 @@
+body {
+
+  margin: 0;
+
+  font-family: 'Poppins', sans-serif;
+
+}
+
+/* Grid General */
+.gridContainer {
+
+  display: grid;
+
+  grid-template-rows: 83px calc(100vh - 83px);
+
+  grid-template-columns: 290px calc(100vw - 290px);
+
+  grid-template-areas: 
+    "nav nav" 
+    "sideNav chatTrade"
+  ;
+
+  background-color: #FFF9FE;
+
+}
+
+.nav {
+
+  grid-area: nav;
+
+  background-color: #ffffff;
+
+  position: relative;
+
+  border: 2px solid #f0f0f0;
+
+  box-sizing: border-box;
+
+}
+
+.sideNav {
+
+  grid-area: sideNav;
+
+  background-color: #ffffff;
+
+  border-right: 2px solid #f0f0f0;
+
+  box-sizing: border-box;
+
+  position: relative;
+
+}
+
+.chatTrade {
+
+  grid-area: chatTrade;
+
+  background-color: #ffffff;
+
+  margin: 18px;
+
+}
+
+/* ChatTrade Grid */
+.chatTrade {
+
+  display: grid;
+
+  grid-template-rows: 100px calc(100% - 100px);
+
+  grid-template-columns: 301px calc(100% - 301px);
+
+  grid-template-areas: 
+    "userStatus chatContainer" 
+    "chats chatContainer"
+  ;
+
+  border: 2px solid #f0f0f0;
+
+  border-radius: 10px;
+
+}
+
+.userStatus {
+
+  grid-area: userStatus;
+
+  display: flex;
+
+  padding: 31px 0 0 39.81px;
+
+  border-right: 2px solid #f0f0f0;
+
+  box-sizing: border-box;
+
+}
+
+.chats {
+
+  grid-area: chats;
+
+  padding-top: 35.79px;
+
+  padding-left: 39.81px;
+
+  padding-right: 33px;
+
+  border-right: 2px solid #f0f0f0;
+  
+  border-top: 2px solid #f0f0f0;
+
+  position: relative;
+
+}
+
+.chatContainer {
+
+  grid-area: chatContainer;
+
+  padding: 57px 43px 27px 43px;
+
+  position: relative;
+
+  scrollbar-width: none;
+
+}
+
+::-webkit-scrollbar {
+
+  display: none;
+  
+}
+
+.chatContainer .msgBox {
+
+  max-height: 80%;
+
+  overflow-y: scroll;
+
+}
+
+.chatContainer .report {
+
+  color: #ee82ee;
+
+  font-size: 20px;
+
+  position: absolute;
+
+  top: 20px;
+
+  right: 20px;
+
+}

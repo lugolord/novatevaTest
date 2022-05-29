@@ -1,25 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+// import './Grids.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// Components
+import Login from './components/Login';
+import ChatView from './components/ChatView';
+
+// Context
+import TokenProvider from './context/TokenContext';
+import ChatsProvider from './context/ChatsContext';
+import ChatsRoomsProvider from './context/ChatsRoomsContext';
+import ActiveChatProvider from './context/ActiveChatContext';
+
+// Router
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import React from "react";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    <TokenProvider>
+
+      <ChatsProvider>
+
+        <ChatsRoomsProvider>
+
+          <ActiveChatProvider>
+
+            <Router>
+
+              <Routes>
+
+                <Route path="/chat" element={<ChatView/>}/>
+
+                <Route path="/" element={<Login/>} />
+
+              </Routes>
+
+            </Router>
+
+          </ActiveChatProvider>
+
+        </ChatsRoomsProvider>
+
+      </ChatsProvider>
+
+    </TokenProvider>
+
+  )
+
 }
 
 export default App;

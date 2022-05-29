@@ -1,0 +1,33 @@
+.newChatBtn {
+
+  width: 153.91px;
+
+  height: 47.97px;
+
+  background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+
+  border: none;
+
+  border-radius: 100px;
+
+  font-weight: 600;
+
+  font-size: 14px;
+
+  font-family: 'Poppins', sans-serif;
+
+  color: #ffffff;
+
+  position: absolute;
+
+  bottom: 27.41px;
+
+  left: 70.06px;
+
+}
+
+.user {
+
+  background-color: #fd749b;
+
+}

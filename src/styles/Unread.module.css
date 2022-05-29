@@ -1,0 +1,41 @@
+.unreadContainer p {
+
+  display: inline-block;
+
+}
+
+.unreadContainer hr {
+
+  display: inline-block;
+
+  height: 1px;
+
+  width: 90%;
+
+  margin-left: 5.38px;
+
+  margin-top: 0;
+
+  margin-bottom: 3px;
+
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+
+}
+
+.unreadContainer p {
+
+  font-weight: 700;
+
+  font-size: 12px;
+
+  text-transform: uppercase;
+
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+
+}

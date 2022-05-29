@@ -1,0 +1,43 @@
+.userInfoContainer {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  position: absolute;
+
+  right: 98px;
+
+  bottom: 24px;
+
+}
+
+.minPic {
+
+  width: 36px;
+
+  height: 36px;
+
+  border-radius: 50%;
+
+  margin-right: 11px;
+
+}
+
+.userName {
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-size: 12px;
+
+  line-height: 24px;
+
+  color: #858585;
+
+  margin: 0;
+
+  align-self: center;
+
+}

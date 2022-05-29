@@ -1,0 +1,53 @@
+.nameNStatus p {
+
+  margin: 0;
+
+}
+
+.userName {
+  
+  font-size: 12px;
+
+  font-weight: 700;
+
+  color: #858585;
+
+}
+
+.status {
+
+  font-size: 10px;
+
+  font-weight: 400;
+
+  color: #858585;
+
+}
+
+.imgStatus {
+
+  position: relative;
+
+}
+
+.minPic {
+
+  width: 41px;
+
+  height: 41px;
+
+  border-radius: 50%;
+
+  margin-right: 14.84px;
+
+}
+
+.onlineIcon {
+
+  position: absolute;
+
+  top: 29.52px;
+
+  left: 30.19px;
+
+}

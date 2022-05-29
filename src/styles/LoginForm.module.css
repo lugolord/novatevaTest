@@ -1,0 +1,65 @@
+.loginForm {
+
+  width: 300px;
+
+  height: 300px;
+
+  background-color: #8338ec;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+input {
+
+  padding-right: 20px;
+
+  padding-left: 20px;
+
+  margin-bottom: 30px;
+
+  outline: none;
+
+  height: 30px;
+
+}
+
+.loginBtn {
+
+  background-color: #ffffff;
+
+  border: none;
+
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  
+}
+
+.signupForm {
+
+  background-color: red;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 20px;
+
+  margin-left: 20px;
+
+}

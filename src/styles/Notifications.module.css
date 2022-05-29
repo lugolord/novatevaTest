@@ -1,0 +1,49 @@
+.notifications {
+
+  position: absolute;
+
+  width: 20.89px;
+
+  height: 24.25px;
+
+  top: 29px;
+
+  right: 34.11px;
+
+}
+
+.bellIcon {
+
+  width: 12.31px;
+
+  height: 20px;
+
+}
+
+.badge {
+
+  width: 14.58px;
+
+  height: 14px;
+
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+
+  border-radius: 50%;
+
+  position: absolute;
+
+  top: 0px;
+
+  right: 0px;
+
+  font-size: 6px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  color: #ffffff;
+
+}

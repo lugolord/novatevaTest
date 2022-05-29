@@ -1,0 +1,43 @@
+.prueba {
+
+  display: inline-block;
+
+  position: relative;
+
+  margin: 23px 0 0 30px;
+
+}
+
+.userSearchInput {
+
+  position: absolute;
+
+  top: 5px;
+
+  left: 65px;
+
+  font-size: 10px;
+
+  border: none;
+
+  outline: none;
+
+}
+
+.userSearchInput::placeholder {
+
+  color: #858585;
+
+  opacity: 0.5;
+
+}
+
+.searchIcon {
+
+  position: absolute;
+
+  top: 14px;
+
+  left: 34px;
+
+}

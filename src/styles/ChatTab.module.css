@@ -1,0 +1,89 @@
+.chatTab {
+
+  width: 273px;
+
+  height: 43.94px;
+
+  border-radius: 0 100px 100px 0;
+
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+
+  margin-top: 39px;
+
+  position: relative;
+
+}
+
+.chatTab > p {
+
+  font-size: 12px;
+
+  color: #ffffff;
+
+  margin: 0;
+
+  position: absolute;
+
+  left: 92.54px;
+
+  top: 13.02px;
+
+}
+
+.chatIcon {
+
+  width: 14.65px;
+
+  height: 10.69px;
+
+  position: absolute;
+
+  left: 57px;
+
+  top: 17.09px;
+
+}
+
+.msgQty {
+
+  position: absolute;
+
+  left: 231px;
+
+  top: 13.83px;
+
+  width: 21px;
+
+  height: 16.27px;
+
+  background-color: #ffffff;
+
+  border-radius: 50%;
+
+  font-size: 8px;
+
+  font-weight: 700;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.msgQty p {
+
+  background: -webkit-linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+
+  background: -moz-linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  margin-bottom: 0px;
+
+}
