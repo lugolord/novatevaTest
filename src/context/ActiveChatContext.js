@@ -31,7 +31,7 @@ export default function ActiveChatProvider({children}) {
 
   function activateSocket(room) {
 
-    const ruta = `ws://novateva-codetest.herokuapp.com/?roomId=${room}`
+    const ruta = `wss://novateva-codetest.herokuapp.com/?roomId=${room}`
     
     const socket = io(ruta, { 
       transports: ['websocket']
